@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: 'Outfit', sans-serif;
+  --color-brand-blue-light: #E2F0F8;
+  --color-brand-green-light: #CDEDDE;
+  --color-gpay-blue: #0B57D0;
+  --color-gpay-green: #0F5132;
+  --color-gpay-gray: #F8F9FA;
+  --color-gpay-border: #E0E2EC;
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: #0f172a;
+}
